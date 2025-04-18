@@ -3,7 +3,7 @@ import WorkExperienceCard from "./components/work/work-experience-card";
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className="grid grid-rows-4 items-center justify-items-center min-h-screen p-8 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[0.5fr_0.25fr_0.25fr_0.25fr] items-center justify-items-center min-h-screen p-8 gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col row-start-1 text-left items-center sm:items-start">
         <h1 className="text-2xl font-bold">
           Nicholas Rios
