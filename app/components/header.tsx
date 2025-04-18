@@ -6,9 +6,9 @@ import Link from "next/link";
 const Header = () => {
   return (
     <header className="top-0 sticky z-50 flex items-center justify-between gap-10 p-4 text-black">
-      <Link href="/" className="text-xl font-black p-2 hover:bg-neutral-200 rounded-2xl">
+      <b className="text-xl font-black p-2">
         NR
-      </Link>
+      </b>
 
       <nav className="flex items-center justify-center gap-4 p-2 bg-neutral-400/95 text-white rounded-2xl shadow border-neutral-500" role="navigation">
         <Link href="/" aria-label="Home">
