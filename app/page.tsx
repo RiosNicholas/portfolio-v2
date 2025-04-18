@@ -12,13 +12,14 @@ export default function Home() {
           <h2 className="text-lg">
             Software Engineer
           </h2>
-          <p>I'm focused on creating great user experiences in software and dev tools. In addition to my love for technology, I'm passionate about photography, coffee, fitness, and music.</p>
+          <p>I’m passionate about building for the web with a focus on human-centered design. I care deeply about creating thoughtful user and developer experiences that prioritize clarity, accessibility, and ease of use. Outside of tech, I’m passionate about photography, specialty coffee, fitness, and music.</p>
         </main>
         <div className="w-full flex flex-col items-center justify-center gap-4">
           <h2 className="w-full text-lg font-bold text-left">Work</h2>
           {/* Use database to pass this data and map function to display all experiences? */}
           <WorkExperienceCard company="JPMorganChase" position="Software Engineer" location="Jersey City, NJ" startDate="February 2025"/>
           <WorkExperienceCard company="JPMorganChase" position="Software Engineer Intern" location="Jersey City, NJ" startDate="June 2024" endDate="August 2024"/>
+          <WorkExperienceCard company="Rutgers University GS-LSAMP" position="Lead Web Developer" location="Newark, NJ" startDate="February 2023" endDate="May 2024"/>
           <WorkExperienceCard company="Fiserv" position="Software Engineer Intern" location="Berkeley Heights, NJ" startDate="June 2023" endDate="August 2023"/>
         </div>
         <div className="w-full flex flex-col items-center justify-center gap-4">
