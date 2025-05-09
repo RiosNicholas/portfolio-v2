@@ -1,10 +1,11 @@
+import ContactForm from "./components/contact/contact-form";
 import WorkExperienceCard from "./components/work/work-experience-card";
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-8">
-      <div className="grid grid-rows-[0.5fr_0.25fr_0.25fr_0.25fr] items-center justify-items-center min-h-screen gap-4 sm:p-20 font-[family-name:var(--font-geist-sans)] w-full lg:w-4/5">
+      <div className="grid grid-rows-[0.45fr_0.25fr_0.25fr_0.25fr] items-center justify-items-center min-h-screen gap-20 sm:p-20 font-[family-name:var(--font-geist-sans)] w-full lg:w-4/5">
         <main className="flex flex-col row-start-1 text-left items-center sm:items-start">
           <h1 className="text-2xl font-bold">
             Nicholas Rios
@@ -27,6 +28,7 @@ export default function Home() {
         </div>
         <div className="w-full flex flex-col items-center justify-center gap-4">
           <h2 className="w-full text-lg font-bold text-left">Contact</h2>
+          <ContactForm />
         </div>
       </div>
     </div>
